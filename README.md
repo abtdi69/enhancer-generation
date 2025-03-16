@@ -24,7 +24,7 @@ Both models leverage **multi-GPU distributed training** and **hyperparameter tun
 ```bash
 git clone https://github.com/your_username/Enhancer-Gen-Predict.git
 cd Enhancer-Gen-Predict
-****
+
 ### **2. Set Up a Virtual Environment**
 
 python3 -m venv enhancer_env
@@ -37,3 +37,4 @@ pip install -r requirements.txt
 import torch
 print(torch.cuda.is_available())  # Should return True
 print(torch.cuda.device_count())  # Check available GPUs
+****
